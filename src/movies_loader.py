@@ -2,10 +2,12 @@ from movie import Movie
 import fresh_tomatoes
 
 def loadMovies(movies):
+    # Open up the movies and show them in the browser.
     fresh_tomatoes.open_movies_page(movies)
 
 
 if __name__ == "__main__":
+    # This method is called if this file (movies_loader.py) is the primary file been run.
     movies = []
     movies.append(Movie(
         "The Shawshank Redemption",
