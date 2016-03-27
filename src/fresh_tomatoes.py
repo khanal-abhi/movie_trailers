@@ -103,15 +103,18 @@ main_page_content = '''
     </div>
 
     <!-- Main Page Content -->
-    <div class="container">
-      <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
-          <div class="navbar-header">
-            <a class="navbar-brand" href="#">Fresh Tomatoes Movie Trailers</a>
-          </div>
-        </div>
-      </div>
+    <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Abhi's Movie Trailer Website</a>
     </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="https://github.com/khanal-abhi">Github</a></li>
+      <li><a href="http://www.linkedin.com/in/abhikhanal">Linked in</a></li>
+    </ul>
+  </div>
+</nav>
     <div class="container">
       {movie_tiles}
     </div>
