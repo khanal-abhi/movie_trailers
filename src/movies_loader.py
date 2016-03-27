@@ -8,7 +8,11 @@ def loadMovies(movies):
 
 if __name__ == "__main__":
     # This method is called if this file (movies_loader.py) is the primary file been run.
+
+    # Declare an empty list to hold the movies
     movies = []
+
+    # Create new movies and append to the newly created list.
     movies.append(Movie(
         "The Shawshank Redemption",
         "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
@@ -28,4 +32,5 @@ if __name__ == "__main__":
         "https://www.youtube.com/watch?v=_PZpmTj1Q8Q"
     ))
 
+    # Call the loadMoviews method to load the newly set up movies list.
     loadMovies(movies)
